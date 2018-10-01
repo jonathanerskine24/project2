@@ -25,7 +25,18 @@ int main(void) {
 	delete [] test;
 	test = NULL;
 
-	cout << test[2] << endl;
+	// cout << test[2] << endl;
+
+
+	string a = "50";
+	string b = "51";
+	string c = "Ant";
+	string d = "Banana";
+
+	if (d > c) cout << "true" << endl;
+
+	cout << c.compare(d) << endl;
+	cout << d.compare(c) << endl;
 
 	return 0;
 }

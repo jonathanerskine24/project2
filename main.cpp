@@ -1,10 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 
-void IntArray(int* intArray1, int* intArray2, std::ifstream file1) {
-	file1 >> intArray1[1];
-	return;
-}
 
 int main(int argc, char ** argv) {
 
@@ -13,12 +10,6 @@ int main(int argc, char ** argv) {
 		return 1;
 	}
 
-	int *intArray1 = new int[100];
-	int *intArray2 = new int[100];
-	for (int i = 0; i<100; i++) {
-		intArray1[i] = 0;
-		intArray2[i] = 0;
-	}
 
 	std::string data;
 
@@ -26,10 +17,17 @@ int main(int argc, char ** argv) {
 	file1.open(argv[2]);
 	file2.open(argv[3]);
 	
+	std::string *stringArray1 = new std::string[100];
+	std::string *stringArray2 = new std::string[100];
 
-	IntArray(intArray1, intArray2, file1);
+	for (int i=0; i<102; i++) {
+		file1 >> data;		
+	}
+	file1 >> data;
+	file1 >> data;
 
-	std::cout << intArray1[1] << std::endl;
+
+	std::cout << data << std::endl;
 
 
 	return 0;

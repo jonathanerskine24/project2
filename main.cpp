@@ -2,6 +2,32 @@
 #include <fstream>
 #include <string>
 
+std::string* snipArray(std::string* array, int N) {
+	std::string *newArray = new std::string[N];
+	for (int i = 0; i<N; i++) {
+		newArray[i] = array[i];
+	}
+	return newArray;
+}
+
+std::string* InitArray(char *fileName) {
+	std::ifstream file;
+	file.open(fileName);
+	std::string *stringArray = new std::string[100];
+	int index = 0;
+	int n = 0;
+	std::string data;
+	while (file >> data) {
+		stringArray[index] = data;
+		index++;
+		n++;
+	}
+	std::string *stringArraySnipped = snipArray(stringArray, n);
+	delete [] stringArray;
+	stringArray = NULL;
+	return stringArraySnipped;
+}
+
 
 int main(int argc, char ** argv) {
 
@@ -11,23 +37,13 @@ int main(int argc, char ** argv) {
 	}
 
 
-	std::string data;
-
-	std::ifstream file1, file2;
-	file1.open(argv[2]);
-	file2.open(argv[3]);
-	
-	std::string *stringArray1 = new std::string[100];
-	std::string *stringArray2 = new std::string[100];
-
-	for (int i=0; i<102; i++) {
-		file1 >> data;		
-	}
-	file1 >> data;
-	file1 >> data;
+	std::string *stringArray1 = InitArray(argv[2]);
+	std::string *stringArray2 = InitArray(argv[3]);
 
 
-	std::cout << data << std::endl;
+
+
+	std::cout << stringArray1[4] << " " <<  << std::endl;
 
 
 	return 0;

@@ -1,0 +1,372 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"item",
+				"itemDescription"
+			],
+			[
+				"numItem",
+				"numItemsInCart"
+			],
+			[
+				"numI",
+				"numItemsInCart"
+			],
+			[
+				"Get",
+				"GetNumItemsInCart"
+			],
+			[
+				"GetC",
+				"GetCostOfCart"
+			],
+			[
+				"Shop",
+				"ShoppingCart"
+			],
+			[
+				"encoder",
+				"encoderKey2"
+			],
+			[
+				"encode",
+				"encoderKey2"
+			],
+			[
+				"enc",
+				"encoderKey1"
+			],
+			[
+				"en",
+				"encoderKey2"
+			],
+			[
+				"encoded",
+				"encodedAlphabet"
+			],
+			[
+				"message",
+				"messageEncoded"
+			],
+			[
+				"enco",
+				"encoderKey1"
+			],
+			[
+				"word",
+				"wordLength"
+			],
+			[
+				"mes",
+				"messageLength"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"messaged",
+				"messageEncoded"
+			],
+			[
+				"messa",
+				"messageEncoded"
+			],
+			[
+				"mess",
+				"messageEncoded"
+			],
+			[
+				"me",
+				"messageLength"
+			],
+			[
+				"decod",
+				"decoder_file"
+			],
+			[
+				"e",
+				"enemy"
+			],
+			[
+				"cha",
+				"chanceToHit"
+			],
+			[
+				"attack",
+				"attackerLevel"
+			],
+			[
+				"def",
+				"defense"
+			],
+			[
+				"str",
+				"strength"
+			],
+			[
+				"cstd",
+				"cstdio\tstandard header"
+			],
+			[
+				"name",
+				"name_of_character"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Con",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jonathan/Documents/School/CS101/projects/project2"
+	],
+	"file_history":
+	[
+		"/home/jonathan/Documents/School/CS101/projects/project2/a.sublime-project",
+		"/home/jonathan/Code/FantasyFootball/test.py",
+		"/home/jonathan/Code/Python/NHLScoresBot/api.py",
+		"/home/jonathan/Code/Python/NHLScoresBot/bot.py",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/ItemToPurchase.h",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/ShoppingCart.h",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/makefile",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/data",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/ShoppingCart.cpp",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/ItemToPurchase.cpp",
+		"/home/jonathan/Documents/School/CS101/labs/lab2/main.cpp",
+		"/home/jonathan/.cache/.fr-oXd29l/main.cpp",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/p1",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/CUSTOM2",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/CUSTOM1",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/file1b",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/file2b",
+		"/home/jonathan/Documents/School/CS101/projects/project1/p1/main.cpp",
+		"/home/jonathan/Documents/School/CS101/projects/project1/1/main.cpp",
+		"/home/jonathan/Documents/School/CS101/project1/decoder",
+		"/home/jonathan/Documents/School/CS101/project1/message",
+		"/home/jonathan/Documents/School/CS101/project1/main.cpp",
+		"/home/jonathan/Documents/School/CS101/project1/a.out",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/monsters.cpp",
+		"/media/jonathan/Samsung USB/RPG/src/fight.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/fight.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/objects.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/objects.h",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/fight.h",
+		"/home/jonathan/Git/Gator4200.github.io/index.html",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/main.cpp",
+		"/home/jonathan/Documents/Code/Cpp/Practice/test.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/helper.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/helper.h",
+		"/home/jonathan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jonathan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/battle.h",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/objects.h",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/jsonparser.h",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/utils.cpp",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/jsonparser.cpp",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/battle.cpp",
+		"/home/jonathan/.local/share/Trash/files/CTRPG-master/src/main.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/battle.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/battle.h",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/game.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/src/game.h",
+		"/home/jonathan/Documents/Code/Cpp/RPG/bin/test.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/main.cpp",
+		"/home/jonathan/Documents/Code/Cpp/RPG/player.h"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"getDate",
+			" \"",
+			"word",
+			"__word",
+			"_word",
+			"Mess",
+			"_word",
+			"levelup",
+			"level"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "a.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

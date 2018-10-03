@@ -3,23 +3,12 @@
 #include <string>
 #include <vector>
 
-std::vector<int> *InitIntVector(char *fileName) {
+template <typename ElementType>
+std::vector<ElementType> *InitVector(char *fileName, ElementType type) {
 	std::ifstream file;
 	file.open(fileName);
-	std::vector<int> *newVector = new std::vector<int>;
-	int data;
-	while (file >> data) {
-		newVector->push_back(data);
-	}
-	file.close();
-	return newVector;
-}
-
-std::vector<std::string> *InitStringVector(char *fileName) {
-	std::ifstream file;
-	file.open(fileName);
-	std::vector<std::string> *newVector = new std::vector<std::string>;
-	std::string data;
+	std::vector<ElementType> *newVector = new std::vector<ElementType>;
+	ElementType data;
 	while (file >> data) {
 		newVector->push_back(data);
 	}
@@ -69,6 +58,25 @@ ElementType *MergeSortVector(ElementType *vectorToSort) {
 		return Merge(firstHalf, secondHalf);
 }
 
+template <typename ElementType>
+void checkForDuplicates(ElementType *vector1, ElementType *vector2) {
+	ElementType *temp = new ElementType;
+	int size1 = vector1->size();
+	int size2 = vector2->size();
+	for (int i = 0; i<size1; i++) {
+		for (int j = 0; j<size2; j++) {
+			if (vector1->at(i) == vector2->at(j)) {
+				temp->push_back(vector1->at(i));
+			}
+		}
+	}
+	for (int i = 0; i<temp->size(); i++) {
+		std::cout << temp->at(i) << std::endl;
+	}
+	delete temp;
+	return;
+}
+
 int main(int argc, char ** argv) {
 
 	if (argc != 4) {
@@ -79,29 +87,28 @@ int main(int argc, char ** argv) {
 	std::string inputType = argv[1];
 	std::vector<std::string> *s_vector1; std::vector<std::string> *s_vector2;
 	std::vector<int> *i_vector1; std::vector<int> *i_vector2;
+	int placeholder = 0;
+	std::string placeholder2 = "";
 
 	if (inputType == "s") {
-		s_vector1 = InitStringVector(argv[2]);
-		s_vector2 = InitStringVector(argv[3]);
+		s_vector1 = InitVector(argv[2], placeholder2);
+		s_vector2 = InitVector(argv[3], placeholder2);
 		s_vector1 = MergeSortVector(s_vector1);
 		s_vector2 = MergeSortVector(s_vector2);
-		for (int i = 0; i<s_vector2->size(); i++) {
-			std::cout << s_vector2->at(i) << std::endl;
-		}
+		checkForDuplicates(s_vector1, s_vector2);
 	} else if (inputType == "i") {
-		i_vector1 = InitIntVector(argv[2]);
-		i_vector2 = InitIntVector(argv[3]);
+		i_vector1 = InitVector(argv[2], placeholder);
+		i_vector2 = InitVector(argv[3], placeholder);
 		i_vector1 = MergeSortVector(i_vector1);
 		i_vector2 = MergeSortVector(i_vector2);
-		for (int i = 0; i<i_vector2->size(); i++) {
-			std::cout << i_vector2->at(i) << std::endl;
-		}
+		checkForDuplicates(i_vector1, i_vector2);
 	} else {
 		std::cout << inputType << " is not a valid argument, program quitting" << std::endl;
 		return 1;
 	}
 
 
-
 	return 0;
 }
+
+
